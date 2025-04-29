@@ -1,32 +1,3 @@
-<<<<<<< HEAD
-package main
-
-import "fmt"
-
-func main() {
-	var (
-		idade, n     int
-		peso, altura float64
-	)
-	for {
-		fmt.Print("IDADE: ")
-		fmt.Scan(&idade)
-
-		fmt.Print("PESO: ")
-		fmt.Scan(&peso)
-
-		fmt.Print("ALTURA: ")
-		fmt.Scan(&altura)
-
-		fmt.Print("DESEJA CONTINUAR DIGITANDOP DADOS (1-sim/ 2- nao)? ")
-		fmt.Scan(&n)
-
-		if n == 2 {
-			break
-		}
-	}
-}
-=======
 package main
 
 import "fmt"
@@ -78,4 +49,3 @@ func main() {
 	fmt.Printf("A media das alturas das pessoas com idade entre 10 e 20 anos e de %.2f.\n", mediaAltura)
 	fmt.Printf("A porcentagem de pessoas com peso inferior a 40kg e de %.2f%%.", porcentagem)
 }
->>>>>>> e0fddb2 (Mensagem do commit)
