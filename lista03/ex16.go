@@ -19,7 +19,7 @@ func main() {
 	fettucine[0] = a
 	fettucine[1] = b
 
-	for i := 2; i <= n; i++ {
+	for i := 2; i < n; i++ {
 		if i%2 == 0 {
 			fettucine[i] = fettucine[i-1] - fettucine[i-2]
 		} else {
@@ -28,7 +28,7 @@ func main() {
 	}
 	fmt.Printf("A serie fettucine para n igual a %d:\n", n)
 
-	for i := 0; i <= n; i++ {
-		fmt.Printf("%d ", fettucine[i], "\n")
+	for i := 0; i < n; i++ {
+		fmt.Printf("%d \n", fettucine[i])
 	}
 }
