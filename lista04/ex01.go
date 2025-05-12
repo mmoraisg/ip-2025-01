@@ -13,11 +13,11 @@ func main() {
 
 	for i, num := range vetor {
 		if num > 50 {
-			fmt.Printf("O NUMERO %d DA POSICAO %d É MAIOR QUE 50\n", num, i+1)
+			fmt.Printf("O NUMERO %d DA POSICAO %d É MAIOR QUE 50.\n", num, i+1)
 			encontrado = true
 		}
 	}
 	if !encontrado {
-		fmt.Println("NAO HA NUMEROS MAIORES QUE 50 NO VETOR")
+		fmt.Println("NAO HA NUMEROS MAIORES QUE 50 NO VETOR.")
 	}
 }
